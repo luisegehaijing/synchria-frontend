@@ -131,9 +131,8 @@ function generateId() {
 
 // ─── SYNI AVATAR ─────────────────────────────────────────────────────────────
 // Swap SYNI_SRC with your image URL or base64 when ready
-import syniImg from './img_0505.jpg'
-const SYNI_SRC = syniImg;
 
+const SYNI_SRC = null;
 function SyniAvatar({ size = 40, animate = false }) {
   const style = {
     width: size, height: size, borderRadius: "50%",
