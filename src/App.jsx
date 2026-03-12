@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 
-const API_BASE = "https://synchria-backend.onrender.com";
+const API_BASE = "https://synchria-backend-vite.onrender.com";
 const ANTHROPIC_API = "https://openrouter.ai/api/v1/chat/completions";
 const OPENROUTER_KEY = "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";
 // ─── SIX CATEGORIES ──────────────────────────────────────────────────────────
